@@ -11,7 +11,7 @@ var logger = require('morgan');
 var mongo = require('mongodb');
 var monk = require('monk');
 //var db = monk('localhost:27017/nodetest2');
-var db = monk('mongodb://vincentLin:Pighead123@ds161483.mlab.com:61483/mybot99/userlist');
+var db = monk('mongodb://vincentLin:Pighead123@ds161483.mlab.com:61483/mybot99/');
 
 
 var indexRouter = require('./routes/index');
