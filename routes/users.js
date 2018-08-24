@@ -1,6 +1,12 @@
 var express = require('express');
 var router = express.Router();
 
+// respond with "hello world" when a GET request is made to the homepage
+router.get('/thankyou', function (req, res) {
+  res.send('thank you success')
+});
+
+
 /* GET userlist. */
 router.get('/userlist', function(req, res) {
 	console.log("Hello world!");
